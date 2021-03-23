@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:none;
+	outline:0px;
+	-webkit-appearance: none; 
+	border-radius:none;
+	outline: none;
+}
+html {
+	cursor:none
+}
+span {
+	font-family:arial,sans-serif;
+	font-size:1.3rem;
+	font-weight: 500!important;
+}
+footer {
+	text-align:center;
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	margin: 0 auto;
+}
+footer>p:nth-child(1){
+	display: none;
+}
+footer>p{
+	color: #a8a8a8;
+	font-size: 12px;
+	line-height:24px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#instructions {
+	display:inline-block;
+	margin-top:40px;
+	min-width:250px;
+	padding:1em 2em;
+	color:#414141;
+/*	background-color:#F0F5F8;*/
+/*	border:1px solid #B1B1B1;
+	border-radius:10px;*/
+	font-size:1.1em;
+/*	background-image:linear-gradient(#fff,rgba(255,255,255,0) 100%);*/
+}
+#logo{
+	margin-bottom: 10px;
+}
+#bdlogo {
+	vertical-align:middle;
+	width: 130px;
+	margin-bottom:10px;
+	overflow: hidden;
+    fill: currentColor;
+    z-index: -500;
+    margin-left: -4px!important;
+    margin-right: -4px!important;
+}
+#bds {
+	width:60%;
+	height:20px;
+	padding:9px 7px;
+	font:16px arial;
+	border:1px solid #b8b8b8;
+	vertical-align:top;
+	outline:0;
+	cursor:none
+}
+.btn_wr {
+	width:30%;
+	height:42px;
+	display:inline-block;
+	position:relative;
+	cursor:none
+}
+.btn {
+	cursor: pointer;
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    padding: 0;
+    background: 0 0;
+/*    background-color: #38f;*/
+	background-color: #fff;
+    font-size: 16px;
+    color: #38f;
+    font-weight: 1000!important;
+    box-shadow: none;
+    font-weight: 400;
+    border: 1px solid #b8b8b8;
+    border-left: 1px solid #e8e8e8;
+/*    border-bottom: 1px solid #2e7ae5;*/
+    margin-left: -16px;
+}
+#mouse{
+	width: 30px;
+}
+#input_tag{
+	max-width: 340px!important;
+}
+#url_box {
+    background: #fff;
+    display: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+     /*position: fixed; */
+    min-width: 200px;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.url_btn:hover{
+	background-color: #DCDEE2;
+	cursor: pointer!important;
+}
+.url_btn {
+    cursor: pointer;
+    background: #fff url("../image/clone.png") 8px 8px no-repeat;
+    font-size: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-left: 0;
+}
+.url_title{
+	color: #3F3F3F;
+	font-size: 13px;
+}
+#url_input {
+    margin: 15px 0;
+    font-size: 22px;
+    width: 250px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+   	color:#AAAAAA;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    border-radius: 3px;
+}

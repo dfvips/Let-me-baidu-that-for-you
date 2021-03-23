@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta name="renderer" content="webkit" charset="utf-8" /> 
+  <meta name="author" content="DreamFly" /> 
+  <meta name="keywords" content="let me baidu that for you, 让我帮你百度搜索一下,dreamfly.work,baidu.com" /> 
+  <link rel="shortcut icon" href="image/logo.ico" type="image/x-icon" />
+  <meta name="description" content="装逼必备,让我帮你百度搜索一下！" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <script type="text/javascript" src="https://at.alicdn.com/t/font_1523888_tqvf0us6j7p.js"></script> 
+  <title>让我帮你百度搜索一下</title> 
+  <script src='js/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/pc.css" id="pccss" />
+  <link rel="stylesheet" type="text/css" href="css/mobile.css" id="mobilecss" />
+ </head> 
+ <body> 
+  <svg id="mouse" class="icon" aria-hidden="true" viewbox="0 0 10 10" style="position:absolute;top:0.0px;left:0.0px;z-index:99999999999;"> 
+   <use xlink:href="#iconmouse"></use> 
+  </svg> 
+  <center style="margin-top:50px;"> 
+   <div id="logo"> 
+    <span>让我帮你</span> 
+    <svg class="icon" aria-hidden="true" viewbox="0 0 100 100" id="bdlogo"> 
+     <use xlink:href="#iconbaidu"></use> 
+    </svg> 
+    <span>搜索一下</span> 
+   </div> 
+   <div style="height:43px;margin-top:-25px;" id="input_tag"> 
+    <input type="text" id="bds" autocomplete="off" readonly="" maxlength="100" /> 
+    <span class="btn_wr"><input type="submit" value="百度一下" class="btn" /></span> 
+   </div> 
+   <div id="instructions">
+    首先，打开百度
+   </div> 
+  </center> 
+  <div id="url_box">
+	<div class="url_btn" onclick="closeframe();"></div>
+	<div class="url_title">短网址</div>
+	<div><input type="text" id="url_input" value="" placeholder="加载中..."></div>
+  </div>
+  <footer> 
+   <p>注：本站与百度公司没有任何联系，baidu以及本站出现的百度公司Logo是百度公司的商标。</p> 
+   <p>Copyright &copy; 2018-2020 DreamFly. All Rights Reserved.</p> 
+   <p>梦丶随心飞&copy;版权所有</p> 
+  </footer> 
+  <div style="display:none"> 
+  </div>  
+<script src="js/index.js"></script>  
+ </body>
+</html>
